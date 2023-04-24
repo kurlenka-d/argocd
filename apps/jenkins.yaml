@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     path: ci-cd
-    repoURL: https://github.com/pluhin/build_sa
+    repoURL: https://github.com/kurlenka-d/build_sa #https://github.com/pluhin/build_sa
     targetRevision: HEAD
   syncPolicy:
     automated:

@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     chart: first-app
-    repoURL: https://pluhin.github.io/helm-23-23/
+    repoURL: https://github.com/kurlenka-d/helm-23-23.git # https://pluhin.github.io/helm-23-23/
     targetRevision: 0.2.0
   syncPolicy:
     automated:
