@@ -5,12 +5,11 @@ metadata:
   namespace: argocd
 spec:
   destination:
-    namespace: ci-cd
     server: https://kubernetes.default.svc
   project: default
   source:
     path: ci-cd
-    repoURL: https://github.com/pluhin/build_sa.git
+    repoURL: https://github.com/pluhin/build_sa
     targetRevision: HEAD
   syncPolicy:
     automated:
