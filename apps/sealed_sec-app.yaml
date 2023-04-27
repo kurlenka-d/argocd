@@ -12,6 +12,7 @@ spec:
   template:
     metadata:
       annotations:
+        sealedsecrets.bitnami.com/namespace-wide: "true"
         managed-by: argocd.argoproj.io
       creationTimestamp: null
       labels:
